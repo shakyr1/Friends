@@ -1,1 +1,2 @@
-<h1>Default Page</h1>
+<h3>My friends Database</h3>
+
