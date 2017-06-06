@@ -6,7 +6,7 @@
 --->
 <!-------------------------------------------------------------------------------------------------------------------------->
 
-<cfset this.name = 'test_project'>
+<cfset this.name = 'Friends'>
 <cfset this.LoginStorage="session" />
 <cfset this.SessionManagement=true />
 <cfset this.SetClientCookies = false />
@@ -14,7 +14,7 @@
 <cfset this.Sessiontimeout=CreateTimeSpan(0,2,0,0) />
 <cfset this.Applicationtimeout=CreateTimeSpan(0,2,0,0) />
 
-<cfset APPLICATION.APPLICATIONNAME = "test_project"> <!--- * Required --->
+<cfset APPLICATION.APPLICATIONNAME = "Friends"> <!--- * Required --->
 
 <!--- Get expanded path of the BASE path. --->
 <cfset strPath = ExpandPath( "./" ) />
